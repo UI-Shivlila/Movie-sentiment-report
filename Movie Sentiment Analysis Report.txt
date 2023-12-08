@@ -1,0 +1,20 @@
+**Choice Of Dataset:**
+The choice of this dataset is based on its sentiment analysis, containing labeled text data associated with sentiment labels.
+Understanding sentiments expressed in movie reviewshave practical applications, such as gauging audience reactions and improving movie recommendations.
+
+**Challenges Faced:**
+
+Data Preprocessing:
+
+Tokenization, lemmatization, and handling stopwords required careful consideration. The NLTK library was used for text preprocessing, and missing resources like 'punkt' and 
+'wordnet' needed to be downloaded.
+
+Model Configuration:
+
+Selecting appropriate parameters for the LSTM layer, such as the number of units, dropout rates, and optimization algorithm, required experimentation and tuning.
+
+
+**Model Evaluation**
+Logistic Regression:   86.4% accuracy
+MultinomialNB:   83.8% accuracy
+LSTM Model:   84% accuracy
